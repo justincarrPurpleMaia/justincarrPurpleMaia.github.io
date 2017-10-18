@@ -3,49 +3,87 @@
 <html>
     <head>
 
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <link rel="stylesheet"  href="bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <!-- this is how to link to css -->
+        <link rel="stylesheet" href="style.css">
+   
         <script src="bootstrap.min.js"></script>
     </head>
   
     <body>
-    <div>
-      <div><img class="img-responsive" src="100x100"></div>
-      <div>
-        <h1>Justin Carr</h1>
-        <h3>Front-end Ninja</h3>
-      </div>
-    </div>
-    <div>
-      <img class="img-responsive" src="1140x350">
-    </div>
-    <div>
-      <h2>Quality Work</h2>
-    </div>
-    <div>
-      <div>
-        <img class="img-responsive" src="555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-      <div>
-        <img class="img-responsive" src="555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div>
-    <div>
-      <div>
-        <img class="img-responsive" src="555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-      <div>
-        <img class="img-responsive" src="555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div>
+                    <!-- container classes contain col classes -->
+                    <!-- Also, col-sm-# is better for responsive and smaller screens -->
+        
+    <div class="container">
+        <div>
+          <div class="col-sm-3">
+              <img class="img-responsive img-circle" src="portrait.jpg">
+        </div>
+          <div class="col-md-9 text-right"><!-- use text-right, text-left, or text-center to make your text move twards either the right, left, or center-->
+            <h1>Justin Carr</h1>
+            <h3>Front-end Ninja</h3>
+          </div>
+        </div>
+
+        <div>        <!-- you can create  a class such as steak and use that to edit things like the src/img
+-->
+          <img class="img-responsive steak" src="bracketsicon.jpg">
+        </div>
+        
+        
+       <div> 
+        
+           <div class="row">
+                    <h2>Hobbies</h2>
+           </div>
+        
+           <div class="row col-3">
+                  <div class="col-sm-4">
+                    <img class="img-responsive" src="maxresdefault.jpg">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                  </div>
+
+                  <div class="col-sm-4">
+                      <a href="https://www.youtube.com/channel/UCJ85mBOdvhIlXjtnOZMr2Xg"><img class="img-responsive" src="nSxiydKH.jpg"> </a>
+                      <h3>My youtube</h3>
+                    <p><a href="http://github.com/">Click image above to go to my youtube channel</a></p>
+                  </div>
+
+                 <!-- third column -->
+                  <div class="col-sm-4">
+                    <img class="img-responsive" src="codecode.jpg">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>                
+                  </div>
+            </div>
+        </div>
+        
+                <div class="row"><h3>Future Plans</h3></div>
+        
+        <div class="row">
+        <div class="col-sm-6">         <!-- paragraph about future plans --> 
+            <p>My <em>future</em> plans are pretty interesing. I either plan on becoming
+            a coder at google or apple, or some sort of company like that, or
+            I either want to become a streamer, but would still maybe do coding
+            as a side job. For now, I take the part in the program called 
+            <strong>Purple Maia</strong>, and I think that the program is great.</p>
+            </div>
+            
+        
+            <img class="img-responsive" src="http://via.placeholder.com/450x300">
+            </div>
+            
+       
+            
+    
+        
+        </div>
 
   
 </body>
